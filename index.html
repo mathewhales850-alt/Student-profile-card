@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Profile Card</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <h1>Student Profile Card</h1>
+
+    <div class="container">
+
+        <div class="form">
+
+            <input type="text" id="name" placeholder="Student Name">
+
+            <p id="count">Characters: 0</p>
+
+            <input type="number" id="age" placeholder="Age">
+
+            <input type="text" id="subject" placeholder="Favorite Subject">
+
+            <input type="text" id="color" placeholder="Favorite Color">
+
+            <button id="createBtn">Create Profile</button>
+
+            <button id="themeBtn">Change Theme</button>
+
+            <button id="hideBtn">Hide Profile</button>
+
+            <button id="resetBtn">Reset</button>
+
+        </div>
+
+        <div class="card" id="profileCard">
+            <img src="images/avatar.png" alt="Profile Avatar" width="100">
+
+            <h2>Student Profile</h2>
+
+            <p id="displayName">Name :</p>
+
+            <p id="displayAge">Age :</p>
+
+            <p id="displaySubject">Subject :</p>
+
+            <p id="greeting"></p>
+
+            <p id="todayDate"></p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
